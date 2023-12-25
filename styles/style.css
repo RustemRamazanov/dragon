@@ -1,0 +1,688 @@
+
+@import url('https://fonts.cdnfonts.com/css/druzhok');              
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #D7E9F7;
+    font-style: normal;
+    line-height: normal;    
+}
+
+.container{
+    width: 1360px;
+    margin: 0 calc((100vw - 1360px) / 2);
+}
+
+h3{
+    width: 701px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 330px;
+    margin-top: -30px;
+    margin-bottom: 0;
+}
+
+.nav{
+    border-radius: 50px;
+    background: #EB5B38;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.nav p{
+    color: #FFF;
+    font-family: DRUZHOK;
+    font-size: 17.697px;
+    font-weight: 400;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.nav .search{
+    color: #EB5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    background: #FFF;
+    border: #fff solid;
+    text-align: center;
+}
+
+.title{
+    flex-shrink: 0;
+    position: relative;
+}
+
+.title-text{
+    width: 346px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 488px auto;
+    margin-bottom: 30px;
+}
+
+.button{
+    width: 285px;
+    margin-top: 46px;
+    border-radius: 60px;
+    border: 1px solid #EB5B38;
+    background: #EB5B38;
+    padding: 16px 25px; 
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.noOrder{
+    position: absolute;
+    top: 0px;
+    left: 445px;
+    width: 551px;
+    height: 146px;
+}
+
+.soul{
+    position: absolute;
+    top: 104px;
+    left: 291px;
+    width: 859px;
+    height: 235px;
+}
+
+.bravo{
+    position: absolute;
+    top: 322px;
+    left: 435px;
+    width: 571px;
+    height: 121px;
+}
+
+.union1{
+    position: absolute;
+    top: 27px;
+    left: 192px;
+    width: 99.497px;
+    height: 99px;
+}
+
+.union2{
+    position: absolute;
+    top: 62px;
+    left: 1203px;
+    width: 100.703px;
+    height: 101.726px;
+}
+
+.union3{
+    position: absolute;
+    top: 267px;
+    left: 40px;
+    width: 176.799px;
+    height: 175.915px;
+}
+.star6{
+    position: absolute;
+    top: 356px;
+    left: 1112px;
+    width: 81.427px;
+    height: 81.427px;
+}
+
+.union4{
+    position: absolute;
+    top: 329px;
+    left: 1119px;
+    width: 210.657px;
+    height: 212.796px;
+}
+
+.star1{
+    position: absolute;
+    top: 33px;
+    left: 301px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star2{
+    position: absolute;
+    top: 33px;
+    left: 1054px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star3{
+    position: absolute;
+    top: 360px;
+    left: 171px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star4{
+    position: absolute;
+    top: 520px;
+    left: 405px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star5{
+    position: absolute;
+    top: 543px;
+    left: 1125px;
+    width: 81.427px;
+    height: 81.427px;
+}
+
+
+
+
+.cards{
+    display: flex;
+}
+
+.card-pass{
+    position: relative;
+    width: 319px;
+    height: 299px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin-top: 175px;
+}
+
+.card-pass img{
+    position: absolute;
+    top: -56px;
+    left: 52px;
+    width: 210px;
+    height: 209.999px;
+    flex-shrink: 0;
+}
+.card-pass h2{
+    position: absolute;
+    top: 184px;
+    left: 24px;
+    width: 272px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.card-pass p{
+    position: absolute;
+    top: 223px;
+    left: 17px;
+    width: 286px;
+    height: 56px;
+    flex-shrink: 0;
+    overflow: hidden;
+    color: #EB5B38;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-activ{
+    position: relative;
+    width: 660px;
+    height: 567px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 0 31px;
+}
+
+.card-activ img{
+    position: absolute;
+    top: 20px;
+    left: 151px;
+    width: 359.559px;
+    height: 375.066px;
+    transform: rotate(0.6deg);
+    flex-shrink: 0;
+}
+
+.card-activ h2{
+    position: absolute;
+    top: 423px;
+    left: 101px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 100%; /* 42px */
+    text-transform: uppercase;
+}
+
+.card-activ p{
+    position: absolute;
+    top: 486px;
+    left: 83px;
+    width: 495px;
+    color: #F86D4C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow{
+    margin-left: 554px;
+    margin-top: 30px;
+}
+
+.arrow-left{
+    margin-right: 60px;
+}
+
+.sells{
+    background-image: url(../image/fon.png);
+    width: 1362px;
+    height: 541px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.sells img{
+    margin:120px 442px;
+    margin-bottom: 0;
+}
+
+.sells p{
+    width: 586px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    text-transform: uppercase;
+}
+
+.sells-text{
+    margin: 0 388px;
+    margin-bottom: 25px;
+}
+
+.rulezs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 132px;
+}
+.rulez{
+    width: 320px;
+    color: #EB5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order{
+    margin-bottom: 120px;
+}
+
+.order img{
+    margin-left: 285px;
+}
+
+.order p{
+    margin: 15px 420px 25px 420px;
+    width: 519px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.info-blocks{
+    background-image: url(/image/fon-drak.png);
+    width: 1360px;
+    height: 272px;
+}
+
+.info-block{
+    display: flex;
+}
+.block1 p{
+    margin: 35px 30px;
+    width: 290px;
+    color: #EB5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.block4 p{
+    margin: 35px 30px;
+    width: 290px;
+    color: #EB5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.block3 p{
+    margin: 35px 30px;
+    width: 250px;
+    color: #EB5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block1{
+    width: 350px;
+    height: 136px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    margin-left: 311px;
+}
+
+.block2{
+    width: 350px;
+    height: 136px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    margin-left: 350px;
+    }
+
+.block3{
+    width: 311px;
+    height: 136px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+}
+
+.block4{
+    width: 350px;
+    height: 136px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    margin-left: 350px;
+}
+
+.block4 a{
+    padding: 54px 57px 55px 58px;
+}
+
+.block3-text{
+    width: 250px;
+}
+
+.button2{
+    width: 285px;
+    margin-top: 46px;
+    border-radius: 60px;
+    border: 1px solid #EB5B38;
+    background: #EB5B38;
+    padding: 16px 25px; 
+    margin: 33px 30px;
+    margin-bottom: 120px;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.doubs img{
+    margin-left:  443px;
+}
+
+.shake{
+    position: relative;
+    background-image: url(/image/shake.png);
+    width: 1440px;
+    height: 543.286px;
+    flex-shrink: 0;
+    margin-left: -40px;
+    margin-bottom: 64px;
+}
+
+.shake p{
+    width: 440px;
+    color: #EB5B38;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 460px;
+    margin-top: 25px;
+}
+
+.shake1{
+    position: absolute;
+    top: 381px;
+    left: 40px;
+    width: 117px;
+    height: 121px;
+    flex-shrink: 0;
+}
+.shake2{
+    position: absolute;
+    top: 188px;
+    left: 211px;
+    width: 267px;
+    height: 272px;
+    flex-shrink: 0;
+}
+.shake3{
+    position: absolute;
+    top: 80px;
+    left: 516px;
+    width: 410px;
+    height: 308px;
+    flex-shrink: 0;
+}
+
+.shake4{
+    position: absolute;
+    top: 80px;
+    left: 984px;
+    width: 190px;
+    height: 184px;
+    flex-shrink: 0;
+}
+
+.shake5{
+    position: absolute;
+    top: 312px;
+    left: 1082px;
+    width: 196px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+.shake6{
+    position: absolute;
+    top: 88px;
+    left: 1285px;
+    width: 117px;
+    height: 121px;
+    flex-shrink: 0;
+}
+
+.star7{
+    position: absolute;
+    top: -267px;
+    left: 283px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star8{
+    position: absolute;
+    top: -337px;
+    left: 875px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star9{
+    position: absolute;
+    top: -104px;
+    left: 1101px;
+    width: 81.427px;
+    height: 81.427px;
+}
+.star10{
+    position: absolute;
+    top: 266px;
+    left: 113px;
+    width: 81.427px;
+    height: 81.427px;
+}
+
+.star11{
+    position: absolute;
+    top: 5px;
+    left: 221px;
+    width: 55.556px;
+    height: 55.556px;
+}
+.star12{
+    position: absolute;
+    top: 510px;
+    left: 1025px;
+    width: 55.556px;
+    height: 55.556px;
+}
+
+.button3{
+    width: 1340px;
+    margin-top: 46px;
+    border-radius: 60px;
+    border: 1px solid #EB5B38;
+    background: #EB5B38;
+    padding: 24px 550px; 
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.button3 a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-cars{
+color: #EA5B38;
+}
+
+.footer-cars p{ 
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+}
+
+.footer-cars li{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footer-cars li a{
+    color: #EA5B38;
+    text-decoration: none;
+}
+
+.footer .container .end{
+    color: #EA5B38;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.52px;
+}
+
+.footer-cars p{
+    width: 280px;
+    color: #EA5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-logo{
+    margin-left: 435px;
+    margin-bottom: 60px;
+}
+.footer-cards p{
+    width: 220px;
+    color: #EA5B38;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
